@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Textos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Encriptador de Textos</h1>
+    </header>
+    <main>
+        <div class="container-sections">
+            <section class="input-section">
+                <textarea id="input-text" placeholder="Agregue su texto aquí..."></textarea>
+                <div class="comentario-box">
+                    <p class="comentario">* Solo letras minúsculas y sin caracteres especiales </p>
+                </div>
+                <div class="button-section">
+                    <button onclick="encryptText()">Encriptar</button>
+                    <button onclick="decryptText()">Desencriptar</button>
+                </div>
+            </section>
+            <section class="output-section">
+                <div id="output">
+                   <div id="initial-content">
+                     <img src="imagen.png" alt="Placeholder" class="placeholder-img">
+                     <p class="placeholder-text">Aún no se ha agregado ningún texto.</p>
+                  </div>
+                  <p id="result-text" style="display: none;"></p>
+                </div>
+                <br>
+                <div class="button-section  output-buttons">
+                    <button class="copy-button" onclick="copyText()" disabled>Copiar</button>
+                    <button class="reset-button" onclick="resetState()" disabled>Restablecer</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Desarrollado por <strong>Gonzalo CR</strong> para Oracle Next Education</p>
+        <p><a class="comentario" href="https://github.com/Gonzalo-CR/Encriptador_ORACLE" rel="noopener noreferrer" target="_blank">Ver README en GITHUB</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
