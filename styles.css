@@ -116,6 +116,7 @@ button:disabled {
     word-wrap: break-word; 
     word-break: break-word; 
     overflow-x: hidden; 
+    max-width: 50vw;
 }
 
 #output {
