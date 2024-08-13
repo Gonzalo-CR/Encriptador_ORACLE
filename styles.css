@@ -125,6 +125,7 @@ button:disabled {
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius);
     word-wrap: break-word;
+    word-break: break-all; 
     position: relative;
     overflow-y: auto; 
     overflow-x: hidden; 
