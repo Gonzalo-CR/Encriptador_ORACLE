@@ -113,7 +113,9 @@ button:disabled {
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    
+    word-wrap: break-word; 
+    word-break: break-word; 
+    overflow-x: hidden; 
 }
 
 #output {
